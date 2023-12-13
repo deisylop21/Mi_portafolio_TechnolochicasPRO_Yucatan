@@ -1,11 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deisy López</title>
+
+    <!-- Link de CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+
+        <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Hogar</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Características</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Precios</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Preguntas frecuentes</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Acerca de</font>
+                    </font>
+                </a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="perfil" class="px-4 py-5 my-5 text-center">
+            <img id="foto_perfil" class="rounded" src="assets/Perfil.jpg" alt="Perfil" width="200"
+                height="auto">
+            <h1 class="display-5 fw-bold text-body-emphasis">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Desarrolladora web chiquita</font>
+                </font>
+            </h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Desarrolladora de software en proceso, amante de escuchar música, dibujar y jugar videojuegos. Si necesitas ayuda no dudes en contactarme.</font>
+                    </font>
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+                        <font style="vertical-align: inherit;">
+                            <a href="#contacto" class="text-white" rel="noopener noreferrer">Contáctame</a>
+                        </font>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section id="habilidades" class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Iconos colgantes</font>
+                </font>
+            </h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-toggles"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Título destacado</font>
+                            </font>
+                        </h3>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar
+                                    el título. </font>
+                                <font style="vertical-align: inherit;">Le agregaremos otra oración y probablemente
+                                    continuaremos hasta que nos quedemos sin palabras.</font>
+                            </font>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-cpu-fill"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Título destacado</font>
+                            </font>
+                        </h3>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar
+                                    el título. </font>
+                                <font style="vertical-align: inherit;">Le agregaremos otra oración y probablemente
+                                    continuaremos hasta que nos quedemos sin palabras.</font>
+                            </font>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#tools"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Título destacado</font>
+                            </font>
+                        </h3>
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Párrafo de texto debajo del título para explicar
+                                    el título. </font>
+                                <font style="vertical-align: inherit;">Le agregaremos otra oración y probablemente
+                                    continuaremos hasta que nos quedemos sin palabras.</font>
+                            </font>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="proyectos" class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Tarjetas personalizadas</font>
+                </font>
+            </h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div id="proyecto1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Título corto, chaqueta larga.</font>
+                                </font>
+                            </h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Oreja" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Tierra</font>
+                                        </font>
+                                    </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">3d</font>
+                                        </font>
+                                    </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-2.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Título mucho más largo que se ajusta a varias
+                                        líneas.</font>
+                                </font>
+                            </h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Oreja" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Pakistán</font>
+                                        </font>
+                                    </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">4d</font>
+                                        </font>
+                                    </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Otro título más largo pertenece aquí.</font>
+                                </font>
+                            </h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Oreja" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">California</font>
+                                        </font>
+                                    </small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">5d</font>
+                                        </font>
+                                    </small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                    aria-label="Diapositiva 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"
+                    class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Titular de ejemplo.</font>
+                                </font>
+                            </h1>
+                            <p class="opacity-75">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido de marcador de posición
+                                        representativo para la primera diapositiva del carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Regístrate hoy</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Otro titular de ejemplo.</font>
+                                </font>
+                            </h1>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido de marcador de posición
+                                        representativo para la segunda diapositiva del carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Aprende más</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Uno más por si acaso.</font>
+                                </font>
+                            </h1>
+                            <p>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Algún contenido representativo de marcador de
+                                        posición para la tercera diapositiva de este carrusel.</font>
+                                </font>
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Explorar galería</font>
+                                    </font>
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Anterior</font>
+                    </font>
+                </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                </span>
+            </button>
+        </section>
+        <section id="contacto" class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">héroe de color oscuro</font>
+                    </font>
+                </h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Diseñe y personalice rápidamente sitios responsivos
+                                para dispositivos móviles con Bootstrap, el conjunto de herramientas de código abierto
+                                front-end más popular del mundo, que incluye variables y mixins de Sass, un sistema de
+                                cuadrícula responsivo, amplios componentes prediseñados y potentes complementos de
+                                JavaScript.</font>
+                        </font>
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Botón personalizado</font>
+                            </font>
+                        </button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Secundario</font>
+                            </font>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Link de JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
